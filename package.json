@@ -1,6 +1,6 @@
 {
   "name": "mcp-local-fetch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server that provides fetch capabilities without robots.txt restrictions",
   "type": "module",
   "main": "dist/index.js",

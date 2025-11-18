@@ -1,0 +1,29 @@
+# Test files
+test*.js
+test/
+
+# Development files
+.claude/
+src/
+tsconfig.json
+
+# Git
+.git/
+.gitignore
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
