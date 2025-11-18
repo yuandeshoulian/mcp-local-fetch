@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(npm install)",
+      "Bash(node test.js:*)",
+      "Bash(node test-fetch.js:*)",
+      "Bash(node test-mcp-integration.js:*)",
+      "Bash(node test-weibo.js:*)",
+      "Bash(node test-modelscope.js:*)",
+      "Bash(node test-modelscope-detailed.js:*)",
+      "Bash(node test-modelscope-final.js:*)",
+      "Bash(timeout 60 tail:*)",
+      "Bash(git checkout:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm whoami:*)",
+      "Bash(npm publish:*)",
+      "Bash(npm view:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

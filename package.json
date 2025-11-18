@@ -1,0 +1,41 @@
+{
+  "name": "mcp-local-fetch",
+  "version": "1.0.1",
+  "description": "MCP server that provides fetch capabilities without robots.txt restrictions",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-local-fetch": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "fetch",
+    "web-scraping",
+    "model-context-protocol",
+    "claude",
+    "no-robots-txt"
+  ],
+  "author": "yuandeshoulian",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuandeshoulian/mcp-local-fetch"
+  },
+  "homepage": "https://github.com/yuandeshoulian/mcp-local-fetch#readme",
+  "bugs": {
+    "url": "https://github.com/yuandeshoulian/mcp-local-fetch/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5"
+  }
+}
